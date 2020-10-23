@@ -21,15 +21,18 @@ Copy the following code and add it to the `head` tag of your html document.
 ```
 
 #### Manually
+
 Download icons.css file, add it to the `head` tag of your html document.
 
-#### Use
-Add icon with the correct classname. The classname consists of "icon+iconName". You can find the correct icon names at https://icons.mono.company/.
+#### Usage
+
+Add icon with the correct classname. The classname consists of "ki + ki-[iconName]".
+
 
 ```html
-<i class="icon-add"/>
+<i class="ki ki-add"/>
 ```
 
 ## License & attribution  
 
-Mono icons are MIT licensed. Use them freely - an attribution link to http://icons.mono.company/ would be nice but is not necessary.
+This set is specifically for use within Kaleidos (Flemish government software) context.
