@@ -1,6 +1,6 @@
 {
-  "name": "au2-kaleidos-icons",
-  "version": "1.1.2",
+  "name": "au-kaleidos-icons",
+  "version": "1.0.0",
   "description": "Kaleidos icons as a separate package. This package builds an icon font",
   "main": "index.js",
   "scripts": {
