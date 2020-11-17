@@ -1,12 +1,12 @@
 {
   "name": "@kanselarij-vlaanderen/au-kaleidos-icons",
-  "version": "1.1.1",
+  "version": "1.2.0",
   "description": "Kaleidos icons as a separate package. This package builds an icon font",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "clean": "rimraf dist",
-    "icon-font": "icon-font-generator svg/*.svg -o iconfont --height 1000 --descent 128 -p ki",
+    "icon-font": "fantasticon svg -o iconfont -h 1000 --descent 128 -n icons --prefix ki",
     "prepare": "npm run clean && mkdirp iconfont && npm run icon-font",
     "start": "npm run clean && mkdirp iconfont && npm run icon-font"
   },
@@ -18,7 +18,7 @@
   "author": "Mono",
   "license": "MIT",
   "devDependencies": {
-    "icon-font-generator": "^2.1.10"
+    "fantasticon": "^1.0.16"
   },
   "dependencies": {}
 }
