@@ -1,6 +1,6 @@
 {
   "name": "@kanselarij-vlaanderen/au-kaleidos-icons",
-  "version": "1.2.4",
+  "version": "1.2.5",
   "description": "Kaleidos icons as a separate package. This package builds an icon font",
   "main": "index.js",
   "scripts": {
