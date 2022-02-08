@@ -1,6 +1,6 @@
 {
   "name": "@kanselarij-vlaanderen/au-kaleidos-icons",
-  "version": "2.2.0",
+  "version": "2.2.1",
   "description": "Kaleidos icons as a separate package. This package builds an icon font",
   "main": "index.js",
   "scripts": {
@@ -8,7 +8,7 @@
     "clean": "rimraf dist",
     "icon-font": "fantasticon",
     "prepare": "npm run build",
-    "build": "npm run clean && mkdirp iconfont && npm run icon-font"
+    "build": "npm run clean && rimraf iconfont && mkdirp iconfont && npm run icon-font"
   },
   "keywords": [
     "icons",
@@ -18,7 +18,8 @@
   "author": "Mono",
   "license": "MIT",
   "devDependencies": {
-    "fantasticon": "^1.2.3"
-  },
-  "dependencies": {}
+    "fantasticon": "^1.2.3",
+    "mkdirp": "^1.0.4",
+    "rimraf": "^3.0.2"
+  }
 }
