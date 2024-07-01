@@ -1,4 +1,9 @@
 # Kaleidos Icons
+![No Maintenance Intended](http://unmaintained.tech/badge.svg)
+
+**⚠️ Kaleidos icons has reached end of life and is superseded by the icons provided within `@appuniversum/ember-appuniversum` https://github.com/appuniversum/ember-appuniversum. We are no longer accepting pull requests or providing support for users.**
+
+**For additional information or requests, we refer to https://github.com/kanselarij-vlaanderen/au-kaleidos-icons/issues/6.**
 
 ## Usage
 
